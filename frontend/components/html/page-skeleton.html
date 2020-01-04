@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>$PAGETITLE</title>
+  
+  <base href="$PROJECTROOT">
+  
+  <link rel="icon" type="image/png" href="/assets/favicon.ico" sizes="16x16">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/components/css/page-skeleton.css">
+  <!-- Include CSS and JS for all other components loaded on this page -->
+</head>
+
+<body>
+  <header id="page-header">
+    <button id="show-navigation"><i class="fa fa-bars"></i></button>
+    <img id="logo" src="/assets/logo.svg" href="/" alt="ToolPool">
+    <form id="header-listing-search">
+      <i class="fa fa-search"></i>
+      <input type="search" name="listing-search" placeholder="Search listings...">
+    </form>
+  </header>
+  
+  <nav id="navigation">
+    <a class="nav-link" href="/listings/">Search Listings</a>
+    <a class="nav-link" href="/saved-listings/">Saved Listings</a>
+    <a class="nav-link" href="/edit-listing/new">New Listing</a>
+    <a class="nav-link" href="/account/$USERNAME">My Account</a>
+  </nav>
+  
+  <div id="navigation-underlay">
+    <!-- This section intentionally left blank -->
+  </div>
+  
+  <main></main>
+  
+  <footer id="page-footer"></footer>
+</body>
+
+
+</html>
