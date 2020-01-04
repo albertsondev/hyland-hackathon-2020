@@ -1,22 +1,51 @@
-<div class="profile_card">
-  <img src="https://fsmedia.imgix.net/ee/de/31/4e/1b42/4b9d/9c2a/2bff4db79044/how-anxious-you-are-could-have-to-do-with-how-well-you-are-at-recognizing-faces.jpeg?auto=format%2Ccompress&dpr=2&w=650" alt="avatar" class="avatar"></img>
-  <div class="profile_body">
-    <h2 class="name">Susan Doe</h2>
-    <p class="bio">The Best Tool Buyer in Town</p>
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
+<div class="page-profile-view-container">
+  <div class="sidebar">
+    <img src="$PROJECTROOT/media/avatars/$USERNAME.jpg" alt="avatar" class="avatar"></img>
+    <div class="rating-container">
+      <!--
+      Rating:
+        SELECT (SUM(value) / COUNT(*))
+          FROM Rating
+          WHERE to = User.username
+        ;
+        
+        This is the average star rating.
+        
+        Multiply by 2, round to the nearest int.
+        
+        For every 2, change another $AVG to 'star'.
+        If there's one left over afterwards, change the next $AVG to 'star-half-o'.
+        Change the rest to 'star-o'.
+        
+        Change $NUMAVG to the average star rating plus one, rounded to the nearest hundredth.
+        
+        e.g. "105 / 40":
+          avg star rating: 2.625
+          icon star number: 5
+            > change two instances of $AVG to 'star', one to 'star-half-o', and the fourth and final one to 'star-o'.
+          change $NUMAVG to '3.63'.
+       -->
+      <i class="fa fa-star"></i>
+      <i class="fa fa-$AVG"></i>
+      <i class="fa fa-$AVG"></i>
+      <i class="fa fa-$AVG"></i>
+      <i class="fa fa-$AVG"></i>
+      <br />
+      <span class="rating-numeric">$NUMAVG stars</span>
+    </div>
+    <button class="button-rate"><i class="fa fa-star"></i>Rate</button>
+    <button class="button-message"><i class="fa fa-envelope"></i>Message</button>
   </div>
- <div class="button_body">
-  <br></br>
-  <button class="msg_me_button">Messege Me!</button>
-  <button class="rate_me_button">Rate Me!</button>
-</div>
-<div class="listing_body">
-  <!-- Add Listing Skeleton Here-->
-</div>
+  <div class="profile-listings-container">
+    <!--
+      for each row returned from query (
+        SELECT *
+          FROM Listing
+          WHERE Listing.poster = User.username
+          ORDER BY Listing.date DESC
+        ;
+      ):
+        add listing card populated with listing details
+    -->
+  </div>
 </div>
