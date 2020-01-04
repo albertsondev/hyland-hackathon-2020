@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-stylesheet type="text/css" href="brand-palette.css" ?>
+<?xml-stylesheet type="text/css" href="../components/css/page-skeleton.css" ?>
+<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" ?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 340 170">
+
+  <g clip-path="url(#_clipPath_sEF9xEYQ9QdG4ynWyYnC2h3FECfbsbax)" transform="translate(-100 -85)">
+    <g>
+      <g>
+        <g>
+          <mask id="_mask_KawktSDDAIeAl55nbDGGlnPeYRpXlXqs" x="-200%" y="-200%" width="400%" height="400%">
+            <rect x="-200%" y="-200%" width="400%" height="400%" style="fill:white;" />
+          </mask>
+          <path d=" M 424.096 131.787 C 431.895 143.097 429.554 159.963 417.671 181.975 C 416.846 183.502 415.351 184.388 413.615 184.376 L 407.306 184.332 L 406.347 183.156 L 407.322 181.994 L 406.363 180.818 L 407.338 179.656 L 406.379 178.48 L 407.354 177.318 L 406.396 176.143 L 407.371 174.98 L 406.412 173.805 L 407.387 172.642 L 406.428 171.467 L 407.403 170.304 L 406.444 169.129 L 407.419 167.967 L 406.46 166.791 L 407.435 165.629 L 406.477 164.453 L 407.451 163.291 L 406.493 162.115 L 407.468 160.953 L 406.509 159.778 L 407.484 158.615 L 406.525 157.44 L 407.5 156.277 L 406.541 155.102 L 407.516 153.939 L 406.557 152.764 L 407.532 151.602 L 406.574 150.426 L 407.549 149.264 L 407.552 148.755 C 407.559 147.748 406.743 146.921 405.735 146.914 L 295.32 146.15 C 289.172 146.107 284.176 141.042 284.219 134.893 L 284.219 134.893 C 284.261 128.745 289.326 123.749 295.475 123.792 C 337.187 124.081 366.799 124.285 407.415 124.566 C 415.643 124.623 418.973 124.359 424.096 131.787 L 424.096 131.787 Z " mask="url(#_mask_KawktSDDAIeAl55nbDGGlnPeYRpXlXqs)" stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool" />
+          <path d=" M 377.815 121.503 L 382.806 152.563 L 382.699 153.095 L 379.962 152.543 L 374.088 181.682 C 373.976 181.9 373.904 182.137 373.877 182.381 L 272.279 181.678 L 272.309 177.378 L 354.034 177.944 C 359.142 177.979 359.195 170.24 354.087 170.205 L 272.363 169.639 L 272.467 154.593 C 283.052 154.904 297.123 154.205 299.697 153.277 C 306.666 150.766 306.401 131.959 315.744 133.392 L 315.614 152.098 L 333.573 152.222 L 333.755 125.843 C 333.773 123.214 335.059 120.963 337.315 119.614 C 350.287 111.853 363.185 111.298 373.598 115.993 C 375.909 117.035 377.413 119 377.815 121.503 L 377.815 121.503 Z  M 371.155 176.824 C 371.149 177.655 370.471 178.325 369.64 178.319 C 368.809 178.313 368.14 177.635 368.145 176.804 C 368.151 175.973 368.83 175.304 369.66 175.309 C 370.491 175.315 371.161 175.994 371.155 176.824 Z "  stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool" />
+          <mask id="_mask_seFt0M1LUWL8wuFOX2TdUJcLuo7DGQyT" x="-200%" y="-200%" width="400%" height="400%">
+            <rect x="-200%" y="-200%" width="400%" height="400%" style="fill:white;" />
+          </mask>
+          <path d=" M 331.667 118.664 L 331.453 149.627 L 317.672 149.532 L 317.886 118.569 L 331.667 118.664 L 331.667 118.664 Z " mask="url(#_mask_seFt0M1LUWL8wuFOX2TdUJcLuo7DGQyT)" stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool" />
+          <mask id="_mask_UfTzrbktuVzLwlYfAouoPwDE3Yzc3zSj" x="-200%" y="-200%" width="400%" height="400%">
+            <rect x="-200%" y="-200%" width="400%" height="400%" style="fill:white;" />
+          </mask>
+          <path d=" M 379.962 152.543 L 374.051 181.868 L 383.296 183.732 L 384.394 183.05 L 383.666 181.899 L 384.763 181.217 L 384.035 180.066 L 385.133 179.385 L 384.404 178.233 L 385.502 177.552 L 384.774 176.4 L 385.872 175.719 L 385.143 174.568 L 386.241 173.886 L 385.513 172.735 L 386.61 172.053 L 385.882 170.902 L 386.98 170.22 L 386.252 169.069 L 387.349 168.388 L 386.621 167.237 L 387.719 166.555 L 386.99 165.403 L 388.089 164.722 L 387.36 163.57 L 388.458 162.889 L 387.729 161.738 L 388.827 161.056 L 388.099 159.905 L 389.196 159.224 L 388.469 158.072 L 389.566 157.391 L 388.838 156.24 L 389.935 155.558 L 389.207 154.406 L 379.962 152.543 L 379.962 152.543 Z " mask="url(#_mask_UfTzrbktuVzLwlYfAouoPwDE3Yzc3zSj)" stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool" />
+          
+          <path d=" M 272.482 152.448 L 272.264 183.824 L 162.418 183.064 C 145.288 182.945 131.317 176.494 131.371 168.729 L 131.392 165.591 C 131.446 157.826 145.505 151.569 162.635 151.688 L 272.482 152.448 L 272.482 152.448 Z  M 167.927 167.413 C 167.909 170.025 162.6 172.106 156.071 172.061 C 149.542 172.015 144.262 169.861 144.28 167.249 C 144.298 164.638 149.608 162.556 156.136 162.602 C 162.665 162.647 167.945 164.802 167.927 167.413 Z " stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool" />
+          <mask id="_mask_7bSSBZx8QxROE9dQlLHRiRGfsLX7X924" x="-200%" y="-200%" width="400%" height="400%">
+            <rect x="-200%" y="-200%" width="400%" height="400%" style="fill:white;" />
+          </mask>
+          <path d=" M 272.363 169.639 L 272.309 177.378 L 176.779 176.717 C 175.016 176.705 173.588 175.257 173.6 173.494 L 173.609 172.157 C 173.621 170.394 175.069 168.966 176.832 168.978 L 272.363 169.639 Z " fill="rgb(255,255,255)" mask="url(#_mask_7bSSBZx8QxROE9dQlLHRiRGfsLX7X924)" stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="tool"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1,0,0,1,107.5,144.136)" style="font-family:'Paytone One';font-weight:400;font-size:72px;font-style:normal;stroke-width:2;" class="text">Tool</text>
+      <text transform="matrix(1,0,0,1,237,252.136)" style="font-family:'Paytone One';font-weight:400;font-size:72px;font-style:normal;stroke-width:2;" class="text">Pool</text>
+    </g>
+  </g>
+</svg>

@@ -1,13 +1,14 @@
-<div class="listing_card">
-  <div class="listing_image_container">
-    <img class="listing_photo_main" src="https://cdn10.bigcommerce.com/s-t4yqg98af9/products/791530/images/5723205/apiheummw__45838.1566044337.256.256.jpg?c=2" align="left"></img>
-  </div>
-<div class="listing_details">    
-<h1 class="listing_title">Listing Title</h1> 
-<h1 class="listing_price">Price Here, Right of Title</h1>
-<span class="vendor_name">Vendor Name Here</span> 
-<span class="venor_rating">Five Star Rating Here</span>
-<h4 class="distance_away">3mi away</h4>
-<p class="avail">Availability</p>
-  </div>
-</div>
+<details class="listing-card-wrapper">
+  <summary class="listing-card">
+    <img class="listing-card-photo" src="../data/listing-images/$LISTING_ID/0.jpg">
+    <div class="listing-summary $LISTING_TYPE">
+      <span class="listing-name"><!-- Listing.name --></span> 
+      <span class="listing-poster-name"><!-- SELECT displayname FROM User WHERE User.username = Listing.poster --></span> 
+      <span class="listing-poster-rating"><!-- See page-profile-view for displaying stars --></span>
+      <span class="listing-price"><!-- Varies based on data. I'll discuss in-depth. --></span>
+      <span class="listing-distance"><!-- Will be handled by the JS. --></span>
+      <span class="listing-availability listing-$ISAVAILABLE">$LISTING_CURRENTAVAILABLE available</span> <!-- Marked as listing-available if currentavailable > 0; else listing-unavailable -->
+    </div>
+  </summary>
+  <a href="./listing/$LISTING_ID">Show more...</a>
+</details>

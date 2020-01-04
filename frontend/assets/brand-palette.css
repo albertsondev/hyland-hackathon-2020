@@ -1,0 +1,14 @@
+:root {
+  --fg-main: #080808;
+  --fg-defocus: #808080;
+  
+  --bg-main: #FFE0E0;
+  --bg-focus: #F8F8F8;
+  
+  --accent-main: #FF4040;
+  --accent-focus: #D02020;
+  --accent-defocus: #FF8080;
+  
+  --font-size: 16px;
+  --font-family: "Roboto", "Arial", sans-serif;
+}
