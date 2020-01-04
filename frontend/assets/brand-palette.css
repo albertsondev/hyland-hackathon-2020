@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+
 :root {
   --fg-main: #080808;
   --fg-defocus: #808080;
@@ -11,4 +13,6 @@
   
   --font-size: 16px;
   --font-family: "Roboto", "Arial", sans-serif;
+  
+  --gutter-width: calc(var(--font-size) / 4);
 }

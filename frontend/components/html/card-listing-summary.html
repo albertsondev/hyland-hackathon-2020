@@ -1,4 +1,4 @@
-<details class="listing-card-wrapper">
+<details id="$LISTING_ID" class="listing-card-wrapper">
   <summary class="listing-card">
     <img class="listing-card-photo" src="../data/listing-images/$LISTING_ID/0.jpg">
     <div class="listing-summary $LISTING_TYPE">
@@ -6,7 +6,7 @@
       <span class="listing-poster-name"><!-- SELECT displayname FROM User WHERE User.username = Listing.poster --></span> 
       <span class="listing-poster-rating"><!-- See page-profile-view for displaying stars --></span>
       <span class="listing-price"><!-- Varies based on data. I'll discuss in-depth. --></span>
-      <span class="listing-distance"><!-- Will be handled by the JS. --></span>
+      <span class="listing-distance"><data value="$LISTING_PLUSCODE"><!-- Will be handled by the JS. --></data></span>
       <span class="listing-availability listing-$ISAVAILABLE">$LISTING_CURRENTAVAILABLE available</span> <!-- Marked as listing-available if currentavailable > 0; else listing-unavailable -->
     </div>
   </summary>

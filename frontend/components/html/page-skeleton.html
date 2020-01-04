@@ -17,28 +17,34 @@
   <link rel="stylesheet" type="text/css" href="./components/css/page-skeleton.css">
   <!-- Include CSS for all other components loaded on this page -->
   
+  <script type="text/javascript" src="./components/js/page-skeleton.js"></script>
+  <!-- Include JS for all other components loaded on this page -->
   
 </head>
 
 <body>
   <header id="page-header">
-    <button id="show-navigation"><i class="fa fa-bars"></i></button>
-    <div id="logo-wrapper">
-      <a id="logo-wrapper-overlay" href="./"></a>
-      <object id="logo" type="image/svg+xml" data="./assets/logo.svg" alt="ToolPool"></object>
+    <div id="header-edges" class="header-overlay">
+      <button id="show-navigation"><i class="fa fa-bars"></i></button>
+      <form id="header-listing-search">
+        <i class="fa fa-search"></i>
+        <input type="search" name="listing-search" placeholder="Search listings...">
+      </form>
     </div>
-    <form id="header-listing-search">
-      <i class="fa fa-search"></i>
-      <input type="search" name="listing-search" placeholder="Search listings...">
-    </form>
+    <div id="header-center" class="header-overlay">
+      <div id="logo-wrapper">
+        <a id="logo-wrapper-overlay" href="./"></a>
+        <object id="logo" type="image/svg+xml" data="./assets/logo.svg" alt="ToolPool"></object>
+      </div>
+    </div>
   </header>
   
-  <nav id="navigation" class="hidden">
+  <nav id="navigation-drawer" class="hidden">
     <div id="nav-items">
-      <a class="nav-link" href="./listings/"><i class="fa fa-fw fa-map"></i> Search Listings</a>
-      <a class="nav-link" href="./saved-listings/"><i class="fa fa-fw fa-bookmark"></i> Saved Listings</a>
-      <a class="nav-link" href="./edit-listing/new"><i class="fa fa-fw fa-pencil"></i> New Listing</a>
-      <a class="nav-link" href="./account/$USERNAME"><i class="fa fa-fw fa-id-card"></i> My Account</a>
+      <a class="nav-link" href="./listings/"><i class="fa fa-fw fa-map"></i> Search Listings <i class="fa fa-fw"></i></a>
+      <a class="nav-link" href="./saved-listings/"><i class="fa fa-fw fa-bookmark"></i> Saved Listings <i class="fa fa-fw"></i></a>
+      <a class="nav-link" href="./edit-listing/new"><i class="fa fa-fw fa-pencil"></i> New Listing <i class="fa fa-fw"></i></a>
+      <a class="nav-link" href="./account/$USERNAME"><i class="fa fa-fw fa-id-card"></i> My Account <i class="fa fa-fw"></i></a>
     </div>
   </nav>
   
@@ -48,7 +54,10 @@
   
   <main></main>
   
-  <footer id="page-footer"></footer>
+  <footer id="page-footer">
+    <span>&copy;&reg;&trade; 2020 ToolPool LLC | All rights reserved</span>
+    <span>Contact support at <a href="tel:+18475550121">+1 (847) 555-0121</a></span>
+  </footer>
 </body>
 
 

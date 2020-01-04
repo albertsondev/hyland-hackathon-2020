@@ -1,5 +1,6 @@
 :root {
   --header-height: calc(var(--font-size) * 5);
+  --footer-height: calc(var(--font-size) * 3);
   --max-z-index: 255;
 }
 
@@ -16,19 +17,41 @@ html, body {
 
 #page-header {
   box-sizing: border-box;
-
-  position: fixed;
-  width: 100%;
   height: var(--header-height);
+  width: 100%;
+  
+  position: fixed;
+  
+  background-color: var(--accent-main);
+  color: var(--bg-main);
+}
+
+.header-overlay {
+  box-sizing: border-box;
+  height: var(--header-height);
+  width: 100%;
+  
+  position: absolute;
+  top: 0;
   
   padding: var(--font-size);
   
   display: flex;
-  justify-content: space-between;
   align-items: center;
   
-  background-color: var(--accent-main);
-  color: var(--bg-main);
+  pointer-events: none;
+}
+
+.header-overlay * {
+  pointer-events: visible;
+}
+
+#header-edges {
+  justify-content: space-between;
+}
+
+#header-center {
+  justify-content: center;
 }
 
 #show-navigation {
@@ -41,7 +64,7 @@ html, body {
   background-color: inherit;
   color: inherit;
   
-  border-radius: calc(var(--font-size) / 4);
+  border-radius: var(--gutter-width);
   
   width: calc(var(--font-size) * 3);
   height: calc(var(--font-size) * 3);
@@ -77,35 +100,41 @@ svg .tool {
 #header-listing-search {
   box-sizing: border-box;
   
+  display: flex;
+  align-items: center;
+  
   width: 20vw;
   
+  margin: var(--gutter-width);
   border: none;
-  border-radius: calc(var(--font-size) / 4);
-  padding: calc(var(--font-size) / 4);
+  border-radius: var(--gutter-width);
+  padding: var(--gutter-width);
   
   background-color: var(--accent-focus);
 }
 
 #header-listing-search input {
   margin: none;
+  margin-left: var(--gutter-width);
   border: none;
-
+  
+  flex-grow: 1;
+  
   background-color: inherit;
   color: var(--bg-main);
 }
 
 
-#navigation {
+#navigation-drawer {
   position: fixed;
   top: var(--header-height);
   
   z-index: var(--max-z-index);
   
-  width: 20vw;
   height: calc(100vh - var(--header-height));
   
-  background-color: var(--accent-main);
-  color: var(--bg-main);
+  background-color: var(--bg-focus);
+  color: var(--accent-focus);
 }
 
 #nav-items {
@@ -120,7 +149,7 @@ svg .tool {
   display: block;
   padding: var(--font-size);
   
-  background-color: var(--accent-main);
+  background-color: var(--bg-focus);
   color: inherit;
   
   text-decoration: none;
@@ -129,6 +158,7 @@ svg .tool {
 
 .nav-link:hover {
   background-color: var(--accent-focus);
+  color: var(--bg-focus);
 }
 
 .nav-link + .nav-link { /* Intermittent separators */
@@ -148,6 +178,47 @@ svg .tool {
 }
 
 .hidden {
-  
+  display: none;
 }
 
+main {
+  box-sizing: border-box;
+  width: 100%;
+  
+  margin-top: var(--navbar-height);
+  min-height: calc(100% - var(--navbar-height));
+}
+
+#page-footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: var(--footer-height);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: calc(var(--font-size) / 2);
+  
+  background-color: var(--fg-main);
+  color: var(--bg-main);
+}
+
+#page-footer span {
+  display: block;
+  text-align: center;
+}
+
+a {
+  color: var(--accent-main);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--accent-defocus);
+}
+
+a:hover {
+  color: var(--accent-focus);
+}
