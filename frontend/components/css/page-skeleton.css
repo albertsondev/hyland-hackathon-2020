@@ -5,6 +5,8 @@
 }
 
 html, body {
+  box-sizing: border-box;
+  
   margin: 0;
   border: 0;
   padding: 0;
@@ -13,6 +15,14 @@ html, body {
   min-height: 100vh;
   
   font-family: var(--font-family);
+  
+  background-color: var(--bg-main);
+  color: var(--fg-main);
+}
+
+body {
+  position: absolute;
+  top: 0;
 }
 
 #page-header {
@@ -21,6 +31,7 @@ html, body {
   width: 100%;
   
   position: fixed;
+  top: 0;
   
   background-color: var(--accent-main);
   color: var(--bg-main);
@@ -32,7 +43,7 @@ html, body {
   width: 100%;
   
   position: absolute;
-  top: 0;
+  bottom: 0;
   
   padding: var(--font-size);
   
@@ -185,8 +196,9 @@ main {
   box-sizing: border-box;
   width: 100%;
   
-  margin-top: var(--navbar-height);
-  min-height: calc(100% - var(--navbar-height));
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  
+  margin-top: var(--header-height);
 }
 
 #page-footer {

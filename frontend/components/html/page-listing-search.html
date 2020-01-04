@@ -1,19 +1,22 @@
-<head>
-<link rel="stylesheet" type="text/css" href="page-listing-search.css">
-</head>
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-
-<ul id="myUL">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
-
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
-
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-</ul>
-
-
+<div id="page-listing-search-container">
+  <h1>Listings</h1>
+  <form id="search">
+    <details id="listing-search">
+      <summary id="listing-search-bar">
+        <input name="terms" type="search">
+        <button id="show-advanced-search-drawer">Advanced...</button>
+      </summary>
+      <div id="advanced-search-drawer">
+        
+      </div>
+    </details>
+  </form>
+  <section id="search-results">
+    <section id="listing-summaries">
+      <!-- Populate with listing summary cards generated from query results -->
+    </section>
+    <div id="map-container">
+      <!-- whatever it bloody takes ok we'll figure this one out -->
+    </div>
+  </section>
+</div>
