@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<!-- saved from url=(0060)https://www.w3schools.com/w3css/tryw3css_templates_teal.htm# -->
-<html class="gr__w3schools_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
-
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
-<link rel="stylesheet" href="./W3.CSS Template_files/w3-theme-teal.css">
-<link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
-</head><body data-gr-c-s-loaded="true">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
 
 <!-- Side Navigation -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display: none; width: 100%; font-size: 40px; padding-top: 10%;" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
   <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
   <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
 </nav>
 
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
-  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <i style="position: fixed"onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
   <h4>BEAUTIFUL RESPONSIVE WEB SITES</h4>
   <h1 class="w3-xxxlarge w3-animate-bottom">BUILT WITH W3.CSS</h1>
     <div class="w3-padding-32">
-      <button class="w3-btn w3-xlarge w3-theme-dark w3-hover-teal" onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;block&#39;" style="font-weight:900;">LEARN W3.CSS</button>
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">LEARN W3.CSS</button>
     </div>
   </div>
 </header>
@@ -39,16 +33,17 @@ and open the template in the editor.
 <!-- Modal -->
 <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-card-4 w3-animate-top">
-      <header class="w3-container w3-theme"> 
-        <span onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;none&#39;" class="w3-button w3-display-topright">×</span>
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
         <h4>Oh snap! We just showed you a modal..</h4>
         <h5>Because we can <i class="fa fa-smile-o"></i></h5>
       </header>
       <div class="w3-padding">
         <p>Cool huh? Ok, enough teasing around..</p>
-        <p>Go to our <a class="w3-btn" href="https://www.w3schools.com/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
       </div>
-      <footer class="w3-container w3-theme">
+      <footer class="w3-container w3-theme-l1">
         <p>Modal footer</p>
       </footer>
     </div>
@@ -165,7 +160,7 @@ and open the template in the editor.
 </header>
 
 <div class="w3-padding w3-white w3-display-container">
-  <span onclick="this.parentElement.style.display=&#39;none&#39;" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
+  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
   <h2>London</h2>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom,
   with a metropolitan area of over 13 million inhabitants.</p>
@@ -250,7 +245,7 @@ and open the template in the editor.
 
 <div class="w3-third">
 <div class="w3-card">
-  <img src="./W3.CSS Template_files/car.jpg" alt="Car" style="width:100%">
+  <img src="/w3images/car.jpg" alt="Car" style="width:100%">
   <div class="w3-container">
   <p>w3-card</p>
   </div>
@@ -259,7 +254,7 @@ and open the template in the editor.
 
 <div class="w3-third">
 <div class="w3-card-4">
-  <img src="./W3.CSS Template_files/car.jpg" alt="Car" style="width:100%">
+  <img src="/w3images/car.jpg" alt="Car" style="width:100%">
   <div class="w3-container">
   <p>w3-card-4</p>
   </div>
@@ -268,7 +263,7 @@ and open the template in the editor.
 
 <div class="w3-third">
 <div class="w3-card-4">
-  <img src="./W3.CSS Template_files/car.jpg" alt="Car" style="width:100%">
+  <img src="/w3images/car.jpg" alt="Car" style="width:100%">
   <div class="w3-container">
   <p>w3-card-4</p>
   </div>
@@ -280,7 +275,7 @@ and open the template in the editor.
   <hr>
   <div class="w3-center">
     <h2>Tables</h2>
-    <p w3-class="w3-large">Don't worry. W3.CSS takes care of your tables.</p>
+    <p class="w3-large">Don't worry. W3.CSS takes care of your tables.</p>
   </div>
 <div class="w3-responsive w3-card-4">
 <table class="w3-table w3-striped w3-bordered">
@@ -321,15 +316,15 @@ and open the template in the editor.
 <form class="w3-container w3-card-4">
   <h2>Input Form</h2>
   <div class="w3-section">      
-    <input class="w3-input" type="text" required="">
+    <input class="w3-input" type="text" required>
     <label>Name</label>
   </div>
   <div class="w3-section">      
-    <input class="w3-input" type="text" required="">
+    <input class="w3-input" type="text" required>
     <label>Email</label>
   </div>
   <div class="w3-section">      
-    <input class="w3-input" type="text" required="">
+    <input class="w3-input" type="text" required>
     <label>Subject</label>
   </div>
 
@@ -341,19 +336,19 @@ and open the template in the editor.
     <input id="sugar" class="w3-check" type="checkbox">
     <label>Sugar</label>
     <br>
-    <input id="lemon" class="w3-check" type="checkbox" disabled="">
+    <input id="lemon" class="w3-check" type="checkbox" disabled>
     <label>Lemon (Disabled)</label>
     <br><br>
   </div>
 
   <div class="w3-half">
-    <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked="">
+    <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked>
     <label>Male</label>
     <br>
     <input id="female" class="w3-radio" type="radio" name="gender" value="female">
     <label>Female</label>
     <br>
-    <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled="">
+    <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled>
     <label> Don't know (Disabled)</label>
   </div>
   </div>
@@ -383,10 +378,9 @@ and open the template in the editor.
 <h2 class="w3-center">Progress Bars</h2>
 <div class="w3-container">
 
-<div class="w3-light-grey">
-  <div id="myBar" class="w3-container w3-theme w3-padding" style="width:1%">0</div>
+<div class="w3-light-gray">
+  <div id="myBar" class="w3-center w3-padding w3-theme" style="width:5%">5%</div>
 </div><br>
-
 <button class="w3-btn w3-theme" onclick="move()">Click Me</button> 
 </div>
 <hr>
@@ -394,13 +388,13 @@ and open the template in the editor.
 <h2 class="w3-center">Slideshows</h2>
 <div class="w3-content" style="max-width:800px;position:relative">
 
-<img class="mySlides w3-animate-opacity" src="./W3.CSS Template_files/snow.jpg" style="width: 100%; display: block;">
-<img class="mySlides w3-animate-opacity" src="./W3.CSS Template_files/lights.jpg" style="width: 100%; display: none;">
-<img class="mySlides w3-animate-opacity" src="./W3.CSS Template_files/mountains.jpg" style="width: 100%; display: none;">
-<img class="mySlides w3-animate-opacity" src="./W3.CSS Template_files/forest.jpg" style="width: 100%; display: none;">
+<img class="mySlides w3-animate-opacity" src="/w3images/snow.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="/w3images/lights.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="/w3images/mountains.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="/w3images/forest.jpg" style="width:100%">
 
-<a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
-<a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
 </div>
 
 <div class="w3-container">
@@ -408,39 +402,39 @@ and open the template in the editor.
 <h2 class="w3-center">Navigation</h2>
 
 <div class="w3-bar w3-theme">
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-padding-16">Home</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
   <div class="w3-dropdown-hover">
     <button class="w3-button w3-padding-16">
       Dropdown <i class="fa fa-caret-down"></i>
     </button>
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 1</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 2</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 3</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
     </div>
   </div>
 </div>
-
+  
 <hr>
 <h2 class="w3-center">Accordions</h2>
-<button onclick="myAccFunc(&#39;Demo1&#39;)" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
 <div id="Demo1" class="w3-hide">
   <div class="w3-container">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 </div>
-<button onclick="myAccFunc(&#39;Demo2&#39;)" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 2</button>
+<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 2</button>
 <div id="Demo2" class="w3-hide">
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-button w3-block w3-left-align">Link 1</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-button w3-block w3-left-align">Link 2</a>
-  <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-button w3-block w3-left-align">Link 3</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 1</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 2</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 3</a>
 </div>
-<button onclick="myAccFunc(&#39;Demo3&#39;)" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 3</button>
+<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 3</button>
 <div id="Demo3" class="w3-hide w3-black">
   <div class="w3-container">
     <p>Accordion with Images:</p>
-    <img src="./W3.CSS Template_files/snow.jpg" style="width:30%;" class="w3-animate-zoom">
+    <img src="img_snowtops.jpg" style="width:30%;" class="w3-animate-zoom">
     <p>French Alps</p>
   </div>
 </div>
@@ -449,24 +443,24 @@ and open the template in the editor.
 <h2 class="w3-center">Tabs</h2>
 <div class="w3-border">
 <div class="w3-bar w3-theme">
-  <button class="w3-bar-item w3-button testbtn w3-padding-16 w3-theme-dark" onclick="openCity(event,&#39;London&#39;)">London</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,&#39;Paris&#39;)">Paris</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,&#39;Tokyo&#39;)">Tokyo</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')">London</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">Paris</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Tokyo</button>
 </div>
 
-<div id="London" class="w3-container city w3-animate-opacity" style="display: block;">
+<div id="London" class="w3-container city w3-animate-opacity">
   <h2>London</h2>
   <p>London is the capital city of England.</p>
   <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div>
 
-<div id="Paris" class="w3-container city w3-animate-opacity" style="display: none;">
+<div id="Paris" class="w3-container city w3-animate-opacity">
   <h2>Paris</h2>
   <p>Paris is the capital of France.</p> 
   <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
 </div>
 
-<div id="Tokyo" class="w3-container city w3-animate-opacity" style="display: none;">
+<div id="Tokyo" class="w3-container city w3-animate-opacity">
   <h2>Tokyo</h2>
   <p>Tokyo is the capital of Japan.</p>
   <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
@@ -490,9 +484,9 @@ and open the template in the editor.
   <div class="w3-dropdown-hover">
     <button class="w3-button w3-theme">Dropdown <i class="fa fa-caret-down"></i></button>
     <div class="w3-dropdown-content w3-bar-block w3-border">
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 1</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 2</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button">Link 3</a>
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
     </div>
   </div>
 </div>
@@ -505,28 +499,28 @@ and open the template in the editor.
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">«</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">2</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">3</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">4</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">5</a>
-      <a href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#" class="w3-bar-item w3-button w3-hover-theme">»</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">«</a>
+      <a href="#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">5</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">»</a>
     </div>
   </div>
 </div>
 <br>
 
 <!-- Footer -->
-<footer class="w3-container w3-theme-dark">
+<footer class="w3-container w3-theme-dark w3-padding-16">
   <h3>Footer</h3>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme w3-padding">Go To Top</span>&nbsp;   
-    <a class="w3-text-white" href="https://www.w3schools.com/w3css/tryw3css_templates_teal.htm#myHeader"><span class="w3-xlarge">
+    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
-  <p>Remember to check out our&nbsp;&nbsp;<a href="https://www.w3schools.com/w3css/w3css_references.asp" class="w3-btn w3-theme" target="_blank">W3.CSS Reference</a></p>
+  <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
 </footer>
 
 <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
@@ -539,7 +533,6 @@ function w3_open() {
   x.style.paddingTop = "10%";
   x.style.display = "block";
 }
-
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
@@ -553,10 +546,10 @@ function openCity(evt, cityName) {
   }
   var activebtn = document.getElementsByClassName("testbtn");
   for (i = 0; i < x.length; i++) {
-    activebtn[i].className = activebtn[i].className.replace(" w3-theme-dark", "");
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
   }
   document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " w3-theme-dark";
+  evt.currentTarget.className += " w3-dark-grey";
 }
 
 var mybtn = document.getElementsByClassName("testbtn")[0];
@@ -595,7 +588,7 @@ showDivs(1);
 // Progress Bars
 function move() {
   var elem = document.getElementById("myBar");   
-  var width = 1;
+  var width = 5;
   var id = setInterval(frame, 10);
   function frame() {
     if (width == 100) {
@@ -609,5 +602,5 @@ function move() {
 }
 </script>
 
-
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
+</body>
+</html>
